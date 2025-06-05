@@ -25,6 +25,7 @@ mradulkrishnsharma_spider_task1/
         ├── index.html
         ├── style.css
         └── script.js
+```
 
 ## Games Description
 
