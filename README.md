@@ -7,19 +7,21 @@ This repository contains two web-based games developed using HTML, CSS, and Java
 
 ## Folder Structure
 
+## Folder Structure
+
 mradulkrishnsharma_spider_task1/
 ├── common/
-│ └── hammer_strength_game/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ ├── hammer.png
-│ └── strength_meter.png
+│   └── hammer_strength_game/
+│       ├── index.html
+│       ├── style.css
+│       ├── script.js
+│       ├── image1.png
+│       └── image2.png
 └── domain_specific/
-└── Disc_battle_4/
-├── index.html
-├── style.css
-└── script.js
+    └── Disc_battle_4/
+        ├── index.html
+        ├── style.css
+        └── script.js
 
 ## Games Description
 
