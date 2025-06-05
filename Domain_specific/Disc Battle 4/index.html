@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Disc Battle 4</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <h1>Disc Battle 4</h1>
+
+    <div class="timers">
+      <div class="timer red-timer">
+        <span>Red Player Time:</span>
+        <div class="timer-bar-container">
+          <div id="redTimerBar" class="timer-bar red-bar"></div>
+        </div>
+        <span id="redTimer" class="timer-text">30</span> seconds
+      </div>
+
+      <div class="timer yellow-timer">
+        <span>Yellow Player Time:</span>
+        <div class="timer-bar-container">
+          <div id="yellowTimerBar" class="timer-bar yellow-bar"></div>
+        </div>
+        <span id="yellowTimer" class="timer-text">30</span> seconds
+      </div>
+    </div>
+
+    <div class="block-control">
+      <label for="blockSelect">Block a Column:</label>
+      <select id="blockSelect">
+        <!-- options added dynamically -->
+      </select>
+      <button id="confirmBlock">Confirm Block</button>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <div id="message" class="message">Player Red: Select a column to block.</div>
+
+    <button id="resetBtn" class="reset-btn">Reset Game</button>
+    <button id="toggleSoundBtn" class="toggle-sound-btn">Sound: On</button>
+
+    <div id="leaderboard" class="leaderboard"></div>
+    <button id="resetLeaderboardBtn" class="reset-leaderboard-btn">Reset Leaderboard</button>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
