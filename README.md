@@ -18,8 +18,8 @@ mradulkrishnsharma_spider_task1/
 │       ├── index.html
 │       ├── style.css
 │       ├── script.js
-│       ├── image1.png
-│       └── image2.png
+│       ├── hammer.png
+│       └── strength_meter.png
 └── domain_specific/
     └── Disc_battle_4/
         ├── index.html
