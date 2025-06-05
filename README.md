@@ -9,6 +9,9 @@ This repository contains two web-based games developed using HTML, CSS, and Java
 
 ## Folder Structure
 
+## Folder Structure
+
+```plaintext
 mradulkrishnsharma_spider_task1/
 ├── common/
 │   └── hammer_strength_game/
